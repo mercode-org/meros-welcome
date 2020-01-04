@@ -1,0 +1,95 @@
+html {
+  margin-top: 100px;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #212121;
+  overflow-x: hidden;
+}
+header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  background: linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+header .logo {
+  height: 87px;
+  line-height: 87px;
+}
+body {
+  margin: 0 50px;
+  display: inline-block;
+}
+h1 {
+  font-size: 5vw;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+.ityped {
+  background: -webkit-linear-gradient(rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-size: 2vw;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+p {
+  font-size: 1.7vw;
+  text-align: center;
+  color: #fff;
+}
+/*---------grid---------*/
+.grid-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+a.button {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    outline: 0;
+    padding: 0.55em 1.2em;
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    background: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.7vw;
+    margin: 20px 20px;
+}
+a.button:hover {
+  color: white;
+  background: #ff4d0d;
+  border-color: #ff4d0d;
+  transition: all 0.2s linear;
+}
+/*-------scrollbar-------*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353535;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 162, 6, 0.9);
+}
