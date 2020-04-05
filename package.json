@@ -1,11 +1,21 @@
 {
   "name": "meros-welcome",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "main.js",
   "devDependencies": {
     "electron": "^7.1.7"
   },
+  
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "nixstart": "nix run nixpkgs.electron_6 -c electron ."
+  },
+
+  "launcher": {
+    "title": "merculator",
+    "icon": "",
+    "main": "./index.html",
+    "width": 850,
+    "height": 600
   }
 }
