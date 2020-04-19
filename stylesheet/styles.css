@@ -82,7 +82,7 @@ a.button:hover {
   transition: all 0.2s linear;
 }
 .smallheader {
-  width: 170px;
+  width: 210px;
   display: flex;
   justify-content: center;
   text-align: center;
