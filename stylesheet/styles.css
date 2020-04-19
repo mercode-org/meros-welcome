@@ -19,6 +19,8 @@ header {
 header .logo {
   height: 87px;
   line-height: 87px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 body {
   margin: 0 50px;
@@ -48,13 +50,12 @@ p {
 }
 /*---------grid---------*/
 .grid-container {
-  text-align: center;
-  display: grid;
-  grid-template-columns: auto auto auto;
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 a.button {
-    border-color: white;
+    border-color: #ff4d0d;
     border-style: solid;
     border-width: 2px;
     outline: 0;
@@ -70,12 +71,24 @@ a.button {
     text-decoration: none;
     font-size: 1.7vw;
     margin: 20px 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 170px;
 }
 a.button:hover {
   color: white;
   background: #ff4d0d;
   border-color: #ff4d0d;
   transition: all 0.2s linear;
+}
+.smallheader {
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.smallheadertr {
+  flex-direction: row
 }
 /*-------scrollbar-------*/
 ::-webkit-scrollbar {

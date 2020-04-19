@@ -5,12 +5,10 @@
   "devDependencies": {
     "electron": "^7.1.7"
   },
-  
   "scripts": {
     "start": "electron .",
     "nixstart": "nix run nixpkgs.electron_6 -c electron ."
   },
-
   "launcher": {
     "title": "merculator",
     "icon": "",
