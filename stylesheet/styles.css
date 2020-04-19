@@ -75,11 +75,18 @@ a.button {
     padding-bottom: 15px;
     width: 170px;
 }
+a.merhub {
+  border-color: rgba(9,79,145,1);
+}
 a.button:hover {
   color: white;
   background: #ff4d0d;
   border-color: #ff4d0d;
   transition: all 0.2s linear;
+}
+a.merhub:hover {
+  background: rgba(12,60,114,1); 
+  border-color: rgba(12,60,114,1); 
 }
 .smallheader {
   width: 210px;
