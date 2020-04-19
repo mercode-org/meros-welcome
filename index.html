@@ -2,53 +2,86 @@
 
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <head>
-    <title>Welcome to MerOS!</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
-    <link rel="shortcut icon" type="image/png" href="assets/icon.png"/>
-    <meta charset="UTF-8"/>
-  </head>
-  <header>
-    <div>
-      <div class="logo animated flipInX"><a href="https://mercode.org/"><img src="assets/icon.svg" style="width:auto;height:80px;padding-top:5px;"></a></div>
-    </div>
-  </header>
-  <body>
-    <h1>Welcome to <span class="ityped"></span></h1>
-    <p>Thank you for joining our community by installing MerOS to your device. Each menu below will take you to a little page that will introduce several miracles of "The Distro of The 21st Century".</p>
-    <div class="grid-container">
+
+<head>
+  <title>Welcome to MerOS!</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+  <link rel="shortcut icon" type="image/png" href="assets/icon.png" />
+  <meta charset="UTF-8" />
+</head>
+<header>
+  <div>
+    <div class="logo animated flipInX"><a href="https://mercode.org/"><img src="assets/icon.svg"
+          style="width:auto;height:80px;padding-top:5px;"></a></div>
+  </div>
+</header>
+
+<body>
+  <h1>Welcome to <span class="ityped"></span></h1>
+  <p>Thank you for joining our community by installing MerOS to your device. Each menu below will take you to a little
+    page that will introduce several miracles of "The Distro of The 21st Century".</p>
+  <div class="grid-container">
     <table>
-    <tr class="smallheadertr">
-      <td class="smallheadertd"><h2 class="smallheader">Documentation</h2></td>
-      <td class="smallheadertd"><h2 class="smallheader">Support</h2></td>
-      <td class="smallheadertd"><h2 class="smallheader">Mercode</h2></td>
-    </tr>
-    <tr>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-book" aria-hidden="true"></i> Introduction</a></td>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-users" aria-hidden="true"></i> MerHub</a></td>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-handshake-o" aria-hidden="true"></i> Join Us</a></td>
-    </tr>
-    <tr>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-list-alt" aria-hidden="true"></i> Features</a></td>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-comments" aria-hidden="true"></i> Chat Groups</a></td>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-sign-in" aria-hidden="true"></i> Register</a></td>
-    </tr>
-    <tr>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-terminal" aria-hidden="true"></i> Nix Guide</a></td>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-shopping-bag" aria-hidden="true"></i> MerBazaar</a></td>
-      <td><a href="#underdevelopment" class="button"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Donate</a></td>
-    </tr>
+      <tr class="smallheadertr">
+        <td class="smallheadertd">
+          <h2 class="smallheader">Documentation</h2>
+        </td>
+        <td class="smallheadertd">
+          <h2 class="smallheader">Support</h2>
+        </td>
+        <td class="smallheadertd">
+          <h2 class="smallheader">Mercode</h2>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-book" aria-hidden="true"></i> Introduction</a>
+        </td>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-users" aria-hidden="true"></i> MerHub</a></td>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-handshake-o" aria-hidden="true"></i> Join Us</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-list-alt" aria-hidden="true"></i> Features</a>
+        </td>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-comments" aria-hidden="true"></i> Chat Groups</a>
+        </td>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-sign-in" aria-hidden="true"></i> Register</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-terminal" aria-hidden="true"></i> Nix Guide</a>
+        </td>
+        <td><a href="#underdevelopment" class="button"><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            MerBazaar</a></td>
+        <td><a href="#donate" class="button"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Donate</a></td>
+      </tr>
     </table>
+  </div>
+</body>
+<script type="text/javascript" src="js/ityped.js"></script>
+<script type="text/javascript">
+  window.ityped.init(document.querySelector('.ityped'), {
+    typeSpeed: 125,
+    startDelay: 500,
+    backDelay: 1200,
+    cursorChar: ".",
+    strings: ['MerOS', 'Simplicity', 'Security', 'Privacy', 'Liberty', 'Solidarity']
+  })
+</script>
+<div id="donate" class="overlay">
+  <div class="popup">
+    <h2>Donate to Mercode</h2><a class="close" href="#">&times;</a>
+    <div class="content">
+      <div class="paragiraf1">If you would like to see this team contributing more to the community, you can donate us
+        on Patreon or send Etherium to our wallet to help us paying our server bills or to order us a coffee (because we
+        really need it after long hours of coding).<br /></div>
+      <div class="butonalani"><a href="https://www.patreon.com/mercode" class="button"><i class="fa fa-money"
+            aria-hidden="true"></i> Patreon</a><br /><input class="kripto" type="text"
+          value="0xf65C6EE66b6f831Ac212A86C2c3502FC285C978E" id="myInput"><br /><a onclick="copyClipboard()"
+          class="button"><i class="fa fa-files-o" aria-hidden="true"></i> ETH</a></div>
     </div>
-  </body>
-  <script type="text/javascript" src="js/ityped.js"></script>
-  <script type="text/javascript">
-     window.ityped.init(document.querySelector('.ityped'),{
-         typeSpeed:  125,
-         startDelay: 500,
-         backDelay:  1200,
-         cursorChar: ".",
-         strings : ['MerOS','Simplicity','Security','Privacy','Liberty','Solidarity']
-     })
-  </script>
+  </div>
+</div>
+</body>
+
 </html>
