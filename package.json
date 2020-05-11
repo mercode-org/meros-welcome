@@ -10,7 +10,7 @@
     "nixstart": "nix run nixpkgs.electron_6 -c electron ."
   },
   "launcher": {
-    "title": "merculator",
+    "title": "meros-welcome",
     "icon": "",
     "main": "./index.html",
     "width": 850,
